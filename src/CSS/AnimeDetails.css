@@ -1,0 +1,56 @@
+.anime_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anime {
+    width: 60%;
+    height: 40%;
+    display: flex;
+    box-shadow: 0px 14px 18px -9px rgb(0 0 0 / 10%);
+}
+
+.anime_image {
+    width: 40%;
+    height: 100%;
+}
+
+.anime_image > img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+} 
+
+h1, h3 {
+    background: white;
+}
+
+.anime_details {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #fff;
+    padding: 15px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.anime_details > .anime_title {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.anime_details > h3 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+strong {
+    background-color: #fff;
+}
